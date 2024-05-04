@@ -1,0 +1,95 @@
+
+#calculator {
+  border-radius: 15px;
+  background: rgb(0, 0, 0);
+  backdrop-filter: blur(10px);
+  margin: 0;
+  width:30vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.expression {
+  font-size: 27px;
+  height: 50px; /* Set a fixed height */
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  overflow: hidden; /* Add overflow: hidden; to prevent content from overflowing */
+}
+
+.result {
+  font-size: 50px;
+  display: none;
+  transition: opacity 0.3s ease;
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 5px;
+  height: 80px; /* Set a fixed height */
+  overflow: hidden; /* Add overflow: hidden; to prevent content from overflowing */
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  order: 2;
+  margin-bottom: 0px;
+}
+
+
+
+.result-show {
+  display: block;
+  opacity: 1;
+}
+
+#display {
+  width: 85%;
+  height: 15%;
+  margin: 10px;
+  font-size: 30px;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  color: rgb(255, 255, 255);
+  text-align: right;
+}
+
+.button-class {
+  width: 55px;
+  height: 48px;
+  margin: 3px;
+  background: rgb(46, 46, 46);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 18px;
+  color: rgb(127, 219, 255);
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-class:hover {
+  background: rgb(101, 99, 99);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  color: rgb(0, 170, 255);
+  border: 1px solid rgb(46, 46, 46);
+}
+
+#zero-button {
+  width: 110px;
+  height: 48px;
+}
+
+#plus, #minus ,#module,#equals{
+  background-color: rgb(0, 132, 215);
+  color: black;
+}
