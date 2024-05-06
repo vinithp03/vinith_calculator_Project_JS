@@ -3,7 +3,6 @@
   border-radius: 15px;
   background: rgb(0, 0, 0);
   backdrop-filter: blur(10px);
-  margin: 0;
   width:250px;
   height: 100vh;
   display: flex;
@@ -17,13 +16,13 @@ body {
 
 .expression {
   font-size: 27px;
-  height: 50px; /* Set a fixed height */
+  height: 50px;
   margin-top: 10px;
   margin-bottom: 0;
   color: white;
   text-align: right;
   margin-right: 20px;
-  overflow: hidden; /* Add overflow: hidden; to prevent content from overflowing */
+  overflow: hidden; 
 }
 
 .result {
@@ -34,8 +33,8 @@ body {
   text-align: right;
   margin-right: 20px;
   margin-top: 5px;
-  height: 80px; /* Set a fixed height */
-  overflow: hidden; /* Add overflow: hidden; to prevent content from overflowing */
+  height: 80px; 
+  overflow: hidden; 
 }
 
 .button_container {
