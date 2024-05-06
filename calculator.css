@@ -4,11 +4,16 @@
   background: rgb(0, 0, 0);
   backdrop-filter: blur(10px);
   margin: 0;
-  width:30vw;
+  width:250px;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
+body {
+  display: flex;
+  justify-content: center;
+}
+
 
 .expression {
   font-size: 27px;
@@ -41,7 +46,6 @@
   order: 2;
   margin-bottom: 0px;
 }
-
 
 
 .result-show {
